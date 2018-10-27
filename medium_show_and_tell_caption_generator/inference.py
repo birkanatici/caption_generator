@@ -8,9 +8,9 @@ import os
 
 import tensorflow as tf
 
-from medium_show_and_tell_caption_generator.caption_generator import CaptionGenerator
-from medium_show_and_tell_caption_generator.model import ShowAndTellModel
-from medium_show_and_tell_caption_generator.vocabulary import Vocabulary
+from caption_generator import CaptionGenerator
+from model import ShowAndTellModel
+from vocabulary import Vocabulary
 
 FLAGS = tf.flags.FLAGS
 
