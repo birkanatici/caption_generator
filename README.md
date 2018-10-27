@@ -12,11 +12,6 @@ A tutorial for the code can be found here: https://medium.freecodecamp.org/build
 !git clone https://github.com/birkanatici/caption_generator app
 ```
 
-### verification files
-```
-!ls app
-```
-
 ### download model
 ```
 !python3 app/bin/download_model.py --model-dir app/etc
